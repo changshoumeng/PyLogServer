@@ -24,5 +24,4 @@ git push -u origin master
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-
-Test
+这是一个基于PYTHON EPOLL 多进程 消息队列实现的高性能网络通信服务，对应的代码就是netcore。
