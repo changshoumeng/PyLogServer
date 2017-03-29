@@ -1,0 +1,513 @@
+2017-03-29 15:33:38,450 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22701
+2017-03-29 15:33:38,450 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 15:33:39,451 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 15:33:46,122 INFO EpollComm 277 init|1_1_11
+2017-03-29 15:33:46,122 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 49758) conns:1
+2017-03-29 15:35:43,634 WARNING EpollComm 309 onReadEvent|1_1_11,recv 0
+2017-03-29 15:35:43,635 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:35:43,635 WARNING EpollComm 510 close|1_1_11,reason:11
+2017-03-29 15:40:19,859 INFO EpollComm 277 init|1_2_11
+2017-03-29 15:40:19,859 DEBUG EpollServer 321 _addTcpAcceptor sessionId:2 fd:11 addr:('10.10.2.143', 51420) conns:1
+2017-03-29 15:40:26,178 WARNING EpollComm 309 onReadEvent|1_2_11,recv 0
+2017-03-29 15:40:26,178 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:40:26,179 WARNING EpollComm 510 close|1_2_11,reason:11
+2017-03-29 15:40:39,117 INFO EpollComm 277 init|1_3_11
+2017-03-29 15:40:39,117 DEBUG EpollServer 321 _addTcpAcceptor sessionId:3 fd:11 addr:('10.10.2.143', 51481) conns:1
+2017-03-29 15:41:11,090 WARNING EpollComm 309 onReadEvent|1_3_11,recv 0
+2017-03-29 15:41:11,091 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:41:11,091 WARNING EpollComm 510 close|1_3_11,reason:11
+2017-03-29 15:41:16,590 INFO EpollComm 277 init|1_4_11
+2017-03-29 15:41:16,591 DEBUG EpollServer 321 _addTcpAcceptor sessionId:4 fd:11 addr:('10.10.2.143', 51605) conns:1
+2017-03-29 15:41:18,982 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 15:41:18,982 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 15:41:18,982 WARNING EpollComm 510 close|1_4_11,reason:0
+2017-03-29 15:43:32,902 INFO EpollComm 277 init|1_5_11
+2017-03-29 15:43:32,902 DEBUG EpollServer 321 _addTcpAcceptor sessionId:5 fd:11 addr:('10.10.2.143', 52246) conns:1
+2017-03-29 15:44:00,290 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 15:44:00,290 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 15:44:00,290 WARNING EpollComm 510 close|1_5_11,reason:0
+2017-03-29 15:44:58,064 INFO EpollComm 277 init|1_6_11
+2017-03-29 15:44:58,064 DEBUG EpollServer 321 _addTcpAcceptor sessionId:6 fd:11 addr:('10.10.2.143', 52535) conns:1
+2017-03-29 15:45:15,077 WARNING EpollComm 309 onReadEvent|1_6_11,recv 0
+2017-03-29 15:45:15,078 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:45:15,078 WARNING EpollComm 510 close|1_6_11,reason:11
+2017-03-29 15:45:18,550 INFO EpollComm 277 init|1_7_11
+2017-03-29 15:45:18,550 DEBUG EpollServer 321 _addTcpAcceptor sessionId:7 fd:11 addr:('10.10.2.143', 52603) conns:1
+2017-03-29 15:45:20,631 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 15:45:20,632 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 15:45:20,632 WARNING EpollComm 510 close|1_7_11,reason:0
+2017-03-29 15:45:40,577 INFO EpollComm 277 init|1_8_11
+2017-03-29 15:45:40,577 DEBUG EpollServer 321 _addTcpAcceptor sessionId:8 fd:11 addr:('10.10.2.143', 52679) conns:1
+2017-03-29 15:45:43,750 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 15:45:43,750 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 15:45:43,750 WARNING EpollComm 510 close|1_8_11,reason:0
+2017-03-29 15:50:16,086 INFO EpollComm 277 init|1_9_11
+2017-03-29 15:50:16,087 DEBUG EpollServer 321 _addTcpAcceptor sessionId:9 fd:11 addr:('10.10.2.143', 53938) conns:1
+2017-03-29 15:50:17,834 WARNING EpollComm 309 onReadEvent|1_9_11,recv 0
+2017-03-29 15:50:17,834 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:50:17,835 WARNING EpollComm 510 close|1_9_11,reason:11
+2017-03-29 15:50:34,372 INFO EpollComm 277 init|1_10_11
+2017-03-29 15:50:34,372 DEBUG EpollServer 321 _addTcpAcceptor sessionId:10 fd:11 addr:('10.10.2.143', 54015) conns:1
+2017-03-29 15:50:36,876 WARNING EpollComm 309 onReadEvent|1_10_11,recv 0
+2017-03-29 15:50:36,876 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:50:36,876 WARNING EpollComm 510 close|1_10_11,reason:11
+2017-03-29 15:50:53,171 INFO EpollComm 277 init|1_11_11
+2017-03-29 15:50:53,172 DEBUG EpollServer 321 _addTcpAcceptor sessionId:11 fd:11 addr:('10.10.2.143', 54081) conns:1
+2017-03-29 15:51:00,500 WARNING EpollComm 309 onReadEvent|1_11_11,recv 0
+2017-03-29 15:51:00,500 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:51:00,500 WARNING EpollComm 510 close|1_11_11,reason:11
+2017-03-29 15:52:15,625 INFO EpollComm 277 init|1_12_11
+2017-03-29 15:52:15,625 DEBUG EpollServer 321 _addTcpAcceptor sessionId:12 fd:11 addr:('10.10.2.143', 54346) conns:1
+2017-03-29 15:52:24,892 WARNING EpollComm 309 onReadEvent|1_12_11,recv 0
+2017-03-29 15:52:24,892 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:52:24,892 WARNING EpollComm 510 close|1_12_11,reason:11
+2017-03-29 15:53:37,368 INFO EpollComm 277 init|1_13_11
+2017-03-29 15:53:37,368 DEBUG EpollServer 321 _addTcpAcceptor sessionId:13 fd:11 addr:('10.10.2.143', 54613) conns:1
+2017-03-29 15:53:39,774 WARNING EpollComm 309 onReadEvent|1_13_11,recv 0
+2017-03-29 15:53:39,774 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:53:39,774 WARNING EpollComm 510 close|1_13_11,reason:11
+2017-03-29 15:54:15,157 INFO EpollComm 277 init|1_14_11
+2017-03-29 15:54:15,158 DEBUG EpollServer 321 _addTcpAcceptor sessionId:14 fd:11 addr:('10.10.2.143', 54746) conns:1
+2017-03-29 15:54:17,228 WARNING EpollComm 309 onReadEvent|1_14_11,recv 0
+2017-03-29 15:54:17,228 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:54:17,229 WARNING EpollComm 510 close|1_14_11,reason:11
+2017-03-29 15:54:49,169 INFO EpollComm 277 init|1_15_11
+2017-03-29 15:54:49,170 DEBUG EpollServer 321 _addTcpAcceptor sessionId:15 fd:11 addr:('10.10.2.143', 54886) conns:1
+2017-03-29 15:54:57,455 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 15:54:57,455 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 15:54:57,455 WARNING EpollComm 510 close|1_15_11,reason:0
+2017-03-29 15:57:19,794 INFO EpollComm 277 init|1_16_11
+2017-03-29 15:57:19,795 DEBUG EpollServer 321 _addTcpAcceptor sessionId:16 fd:11 addr:('10.10.2.143', 55448) conns:1
+2017-03-29 15:57:23,854 WARNING EpollComm 309 onReadEvent|1_16_11,recv 0
+2017-03-29 15:57:23,855 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 15:57:23,855 WARNING EpollComm 510 close|1_16_11,reason:11
+2017-03-29 15:58:08,776 INFO EpollComm 277 init|1_17_11
+2017-03-29 15:58:08,777 DEBUG EpollServer 321 _addTcpAcceptor sessionId:17 fd:11 addr:('10.10.2.143', 55699) conns:1
+2017-03-29 15:58:20,977 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 15:58:20,977 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 15:58:20,978 WARNING EpollComm 510 close|1_17_11,reason:0
+2017-03-29 16:03:03,793 CRITICAL EpollServer 173 _createListenSocket,error,addr:('10.10.1.244', 4900) pid:22804 msg:error(98, 'Address already in use')
+2017-03-29 16:03:51,586 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22833
+2017-03-29 16:03:51,586 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:03:52,587 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:04:00,385 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:04:00,385 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 56914) conns:1
+2017-03-29 16:04:02,387 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:04:02,388 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:04:02,389 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:02,389 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:04:02,389 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:02,389 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:04:02,389 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:02,389 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:04:02,389 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:02,389 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:04:07,395 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:04:07,395 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:04:07,395 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:07,396 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:04:07,396 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:07,396 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:04:07,396 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:07,396 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:04:07,396 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.NameError'>: global name 'SHUT_RD' is not defined
+2017-03-29 16:04:07,396 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:04:09,924 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:04:09,924 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:04:09,924 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:04:09,924 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:04:09,925 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:04:09,925 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:04:09,925 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:04:09,925 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:04:09,925 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:04:09,925 WARNING EpollComm 510 close|1_1_11,reason:0
+2017-03-29 16:04:09,925 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:04:58,688 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22844
+2017-03-29 16:04:58,688 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:04:59,690 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:05:07,584 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:05:07,585 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 57305) conns:1
+2017-03-29 16:05:09,587 WARNING EpollComm 309 onReadEvent|1_1_11,recv 0
+2017-03-29 16:05:09,588 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:05:09,588 WARNING EpollComm 510 close|1_1_11,reason:11
+2017-03-29 16:05:30,385 INFO EpollComm 277 init|1_2_11
+2017-03-29 16:05:30,385 DEBUG EpollServer 321 _addTcpAcceptor sessionId:2 fd:11 addr:('10.10.2.143', 57410) conns:1
+2017-03-29 16:05:35,391 WARNING EpollComm 309 onReadEvent|1_2_11,recv 0
+2017-03-29 16:05:35,391 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:05:35,391 WARNING EpollComm 510 close|1_2_11,reason:11
+2017-03-29 16:06:13,478 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:06:13,479 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:06:13,479 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:06:13,479 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:06:13,479 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:06:13,479 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:06:13,479 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:06:13,479 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:06:13,480 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:06:13,480 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:06:41,206 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22849
+2017-03-29 16:06:41,206 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:06:42,207 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:06:47,946 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:06:47,947 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 57688) conns:1
+2017-03-29 16:06:51,951 WARNING EpollComm 309 onReadEvent|1_1_11,recv 0
+2017-03-29 16:06:51,952 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:06:51,952 WARNING EpollComm 510 close|1_1_11,reason:11
+2017-03-29 16:07:00,654 INFO EpollComm 277 init|1_2_11
+2017-03-29 16:07:00,654 DEBUG EpollServer 321 _addTcpAcceptor sessionId:2 fd:11 addr:('10.10.2.143', 57731) conns:1
+2017-03-29 16:07:02,656 WARNING EpollComm 309 onReadEvent|1_2_11,recv 0
+2017-03-29 16:07:02,656 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:07:02,656 WARNING EpollComm 510 close|1_2_11,reason:11
+2017-03-29 16:08:01,962 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:08:01,963 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:08:01,963 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:08:01,963 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:08:01,964 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:08:01,964 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:08:01,964 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:08:01,964 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:08:01,964 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:08:01,964 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:08:39,403 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22854
+2017-03-29 16:08:39,404 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:08:40,405 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:08:42,600 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:08:42,600 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 58062) conns:1
+2017-03-29 16:09:24,140 CRITICAL EpollComm 439 onWriteEvent|1_1_11,unhandle socket.erro:error(32, 'Broken pipe')
+2017-03-29 16:09:24,141 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:09:24,141 WARNING EpollComm 510 close|1_1_11,reason:13
+2017-03-29 16:11:11,610 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:11:11,610 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:11:11,610 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:11:11,611 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:11:11,611 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:11:11,611 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:11:11,611 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:11:11,611 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:11:11,611 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:11:11,611 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:11:27,555 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22858
+2017-03-29 16:11:27,556 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:11:28,557 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:11:32,088 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:11:32,089 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 58620) conns:1
+2017-03-29 16:11:33,090 WARNING EpollComm 309 onReadEvent|1_1_11,recv 0
+2017-03-29 16:11:33,091 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:11:33,091 WARNING EpollComm 510 close|1_1_11,reason:11
+2017-03-29 16:12:32,299 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:12:32,300 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:12:32,300 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:12:32,300 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:12:32,300 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:12:32,300 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:12:32,300 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:12:32,301 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:12:32,301 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:12:32,301 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:12:43,275 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22860
+2017-03-29 16:12:43,275 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:12:44,277 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:12:49,429 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:12:49,429 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 59026) conns:1
+2017-03-29 16:12:53,434 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 16:12:53,435 DEBUG EpollComm 60 fileno:11 events(21) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 16:select.EPOLLHUP
+2017-03-29 16:12:53,435 WARNING EpollComm 510 close|1_1_11,reason:0
+2017-03-29 16:22:16,562 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:22:16,563 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:22:16,563 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:22:16,564 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:22:16,564 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:22:16,564 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:22:16,564 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:22:16,564 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:22:16,564 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:22:16,564 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:22:28,436 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22868
+2017-03-29 16:22:28,436 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:22:29,437 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:22:31,881 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:22:31,881 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 61173) conns:1
+2017-03-29 16:22:33,884 WARNING EpollComm 309 onReadEvent|1_1_11,recv 0
+2017-03-29 16:22:33,884 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:22:33,884 WARNING EpollComm 510 close|1_1_11,reason:11
+2017-03-29 16:27:04,343 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:27:04,344 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:27:04,344 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:27:04,344 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:27:04,344 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:27:04,344 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:27:04,345 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:27:04,345 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:27:04,345 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:27:04,345 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:29:16,700 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22927
+2017-03-29 16:29:16,700 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:29:17,702 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:29:20,929 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:29:20,929 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 62742) conns:1
+2017-03-29 16:29:21,930 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 16:29:21,931 DEBUG EpollComm 60 fileno:11 events(21) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 16:select.EPOLLHUP
+2017-03-29 16:29:21,931 WARNING EpollComm 309 onReadEvent|1_1_11,recv 0
+2017-03-29 16:29:21,931 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 16:29:21,931 WARNING EpollComm 510 close|1_1_11,reason:11
+2017-03-29 16:31:38,098 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:31:38,099 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:31:38,099 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:31:38,099 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:31:38,099 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:31:38,099 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:31:38,099 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:31:38,099 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:31:38,099 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:31:38,100 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:32:16,989 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22935
+2017-03-29 16:32:16,989 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:32:17,990 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:32:20,326 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:32:20,326 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 63456) conns:1
+2017-03-29 16:32:27,333 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:32:27,349 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:32:27,350 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:27,350 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:32:27,350 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:27,350 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:32:27,350 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:27,350 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:32:27,350 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:27,351 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:32:27,351 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:27,351 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:32:27,351 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:27,351 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:32:32,357 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:32:32,357 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:32:32,357 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:32,357 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:32:32,358 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:32,358 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:32:32,358 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:32,358 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:32:32,358 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:32,358 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:32:32,358 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:32,358 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:32:32,359 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:32:32,359 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:32:34,795 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:32:34,796 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:32:34,796 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:32:34,796 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:32:34,796 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:32:34,796 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:32:34,796 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:32:34,796 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:32:34,797 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:32:34,797 WARNING EpollComm 510 close|1_1_11,reason:0
+2017-03-29 16:32:34,797 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:33:07,035 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22937
+2017-03-29 16:33:07,035 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:33:08,036 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:33:24,941 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:33:24,942 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 63663) conns:1
+2017-03-29 16:34:22,042 INFO EpollComm 277 init|1_2_11
+2017-03-29 16:34:22,043 DEBUG EpollServer 321 _addTcpAcceptor sessionId:2 fd:11 addr:('10.10.2.143', 63920) conns:1
+2017-03-29 16:35:42,131 INFO EpollComm 277 init|1_3_11
+2017-03-29 16:35:42,131 DEBUG EpollServer 321 _addTcpAcceptor sessionId:3 fd:11 addr:('10.10.2.143', 64345) conns:1
+2017-03-29 16:35:51,476 INFO EpollComm 277 init|1_4_11
+2017-03-29 16:35:51,476 DEBUG EpollServer 321 _addTcpAcceptor sessionId:4 fd:11 addr:('10.10.2.143', 64375) conns:1
+2017-03-29 16:36:05,207 INFO EpollComm 277 init|1_5_11
+2017-03-29 16:36:05,207 DEBUG EpollServer 321 _addTcpAcceptor sessionId:5 fd:11 addr:('10.10.2.143', 64418) conns:1
+2017-03-29 16:36:31,105 INFO EpollComm 277 init|1_6_11
+2017-03-29 16:36:31,105 DEBUG EpollServer 321 _addTcpAcceptor sessionId:6 fd:11 addr:('10.10.2.143', 64501) conns:1
+2017-03-29 16:37:31,225 INFO EpollComm 277 init|1_7_11
+2017-03-29 16:37:31,225 DEBUG EpollServer 321 _addTcpAcceptor sessionId:7 fd:11 addr:('10.10.2.143', 64695) conns:1
+2017-03-29 16:38:39,632 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:38:39,633 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:38:39,633 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:38:39,633 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:38:39,634 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:38:39,634 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:38:39,634 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:38:39,634 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:38:39,634 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:38:39,634 WARNING EpollComm 510 close|1_7_11,reason:0
+2017-03-29 16:38:39,634 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:39:04,566 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22942
+2017-03-29 16:39:04,567 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:39:05,568 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:39:11,033 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:39:11,033 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 65090) conns:1
+2017-03-29 16:39:20,042 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:39:20,043 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:39:20,043 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:20,043 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:39:20,043 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:20,043 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:39:20,044 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:20,044 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:39:20,044 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:20,044 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:39:20,044 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:20,044 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:39:20,044 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:20,044 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:39:25,048 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:39:25,049 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:39:25,049 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:25,049 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:39:25,049 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:25,049 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:39:25,049 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:25,049 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:39:25,050 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:25,050 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:39:25,050 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:25,050 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:39:25,050 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:25,050 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:39:30,056 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:39:30,056 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:39:30,056 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:30,057 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:39:30,057 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:30,057 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:39:30,057 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:30,057 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:39:30,057 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:30,057 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:39:30,057 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:30,058 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:39:30,058 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:30,058 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:39:35,063 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:39:35,063 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:39:35,063 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:35,063 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:39:35,064 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:35,064 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:39:35,064 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:35,064 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:39:35,064 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:35,064 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:39:35,064 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:35,064 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:39:35,065 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:35,065 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:39:40,070 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:39:40,071 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:39:40,071 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:40,071 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:39:40,071 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:40,071 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:39:40,071 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:40,071 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:39:40,072 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:40,072 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:39:40,072 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:40,072 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:39:40,072 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:39:40,072 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:39:40,389 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:39:40,389 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:39:40,389 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:39:40,389 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:39:40,389 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:39:40,389 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:39:40,390 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:39:40,390 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:39:40,390 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:39:40,390 WARNING EpollComm 510 close|1_1_11,reason:0
+2017-03-29 16:39:40,390 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 16:39:56,675 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22944
+2017-03-29 16:39:56,675 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 16:39:57,676 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 16:40:01,543 INFO EpollComm 277 init|1_1_11
+2017-03-29 16:40:01,544 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 65263) conns:1
+2017-03-29 16:40:07,550 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:40:07,552 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:40:07,552 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:07,552 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:40:07,552 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:07,552 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:40:07,552 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:07,552 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:40:07,553 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:07,553 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:40:07,553 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:07,553 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:40:07,553 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:07,553 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:40:12,559 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:40:12,559 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:40:12,559 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:12,560 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:40:12,560 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:12,560 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:40:12,560 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:12,560 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:40:12,560 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:12,560 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:40:12,560 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:12,561 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:40:12,561 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:12,561 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:40:17,566 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:40:17,567 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:40:17,567 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:17,567 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:40:17,567 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:17,567 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:40:17,567 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:17,568 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:40:17,568 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:17,568 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:40:17,568 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:17,568 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:40:17,568 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:17,568 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:40:22,574 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:40:22,574 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:40:22,575 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:22,575 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:86 in function:serve_once
+2017-03-29 16:40:22,575 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:22,575 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:150 in function:_triggerTimerEvent
+2017-03-29 16:40:22,575 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:22,575 CRITICAL EpollComm 146 taskloop>>file:../netcore/BaseService.py line:42 in function:onTimerEvent
+2017-03-29 16:40:22,575 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:22,576 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:224 in function:meth
+2017-03-29 16:40:22,576 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:22,576 CRITICAL EpollComm 146 taskloop>>file:/usr/lib/python2.7/socket.py line:170 in function:_dummy
+2017-03-29 16:40:22,576 CRITICAL EpollComm 148 taskloop>>** <class 'socket.error'>: [Errno 9] Bad file descriptor
+2017-03-29 16:40:22,576 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:40:24,465 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 16:40:24,465 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 16:40:24,465 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:40:24,466 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 16:40:24,466 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:40:24,466 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 16:40:24,466 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 16:40:24,466 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 16:40:24,466 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 16:40:24,466 WARNING EpollComm 510 close|1_1_11,reason:0
+2017-03-29 16:40:24,466 WARNING EpollComm 159 taskloop>>stop
+2017-03-29 17:01:39,572 INFO EpollServer 169 _createListenSocket ok addr:('10.10.1.244', 4900) pid:22979
+2017-03-29 17:01:39,573 DEBUG EpollComm 130 taskloop>>start ok
+2017-03-29 17:01:40,574 DEBUG EpollComm 133 taskloop>>serve_once ok
+2017-03-29 17:02:34,331 INFO EpollComm 277 init|1_1_11
+2017-03-29 17:02:34,331 DEBUG EpollServer 321 _addTcpAcceptor sessionId:1 fd:11 addr:('10.10.2.143', 54340) conns:1
+2017-03-29 17:02:38,814 CRITICAL EpollServer 293 _onFdExceptional client_fd:11
+2017-03-29 17:02:38,814 DEBUG EpollComm 60 fileno:11 events(29) contains: 1:select.EPOLLIN 4:select.EPOLLOUT 8:select.EPOLLERR 16:select.EPOLLHUP
+2017-03-29 17:02:38,815 CRITICAL EpollComm 363 onReadEvent|1_1_11,unhandle socket.erro:error(104, 'Connection reset by peer')
+2017-03-29 17:02:38,815 CRITICAL EpollServer 266 _onFdReadable error,client_fd:11
+2017-03-29 17:02:38,815 WARNING EpollComm 510 close|1_1_11,reason:13
+2017-03-29 17:03:06,436 CRITICAL EpollComm 142 taskloop>>***************
+2017-03-29 17:03:06,436 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:138 in function:startAsForver
+2017-03-29 17:03:06,437 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 17:03:06,437 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollServer.py line:88 in function:serve_once
+2017-03-29 17:03:06,437 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 17:03:06,437 CRITICAL EpollComm 146 taskloop>>file:../netcore/EpollComm.py line:193 in function:poll
+2017-03-29 17:03:06,437 CRITICAL EpollComm 148 taskloop>>** <type 'exceptions.IOError'>: [Errno 4] Interrupted system call
+2017-03-29 17:03:06,437 CRITICAL EpollComm 149 taskloop>>###############
+2017-03-29 17:03:06,437 CRITICAL EpollComm 151 taskloop>>catched interrupt signal!!!
+2017-03-29 17:03:06,438 WARNING EpollComm 159 taskloop>>stop
