@@ -329,7 +329,7 @@ class EpollServer(ServerInterface):
                 acceptor_fd,
                 acceptor.client_addr,
                 len(self._acceptor_dict))
-            logger.debug(t)
+            netLogger.debug(t)
             return
         t = "_delTcpAcceptor nothing"
         netLogger.warning(t)
